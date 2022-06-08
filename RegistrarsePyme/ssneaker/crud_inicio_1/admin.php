@@ -1,0 +1,26 @@
+<?php
+ session_start();
+ $conexion=mysqli_connect("localhost","root","","bdssneaker");
+if(!isset($_SESSION['correo'])){
+    header('location: index.html');
+}else{
+    if(($_SESSION['id_rol']) != 1){
+        header('location: pyme.php');
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+        <a href="../crud_admin_crear/index.html">Crear pyme</a>
+        <a href="../crud_admin_listado/listado.php">listado</a>
+</body>
+</html>

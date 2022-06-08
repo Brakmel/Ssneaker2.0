@@ -1,0 +1,255 @@
+/*Atributos principales de la pagina web a nivel general*/
+body{
+    background: url(https://media.giphy.com/media/LmgRN4x0SD5Uo5iCrb/giphy.gif) no-repeat center center fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+::-webkit-scrollbar {display: none;}
+/*Titulo principal de la pagina*/
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Tipo de letra, diseño, estetico más que otra cosa*/
+h1{
+    color: rgba(71, 71, 249, 0.904);
+    font-size:100px;
+    text-align: center;
+}
+h2{
+    color: rgba(255, 17, 0, 0.825);
+    font-size:30px;
+    text-align: center;
+}
+p{
+    font-size:20px; 
+    text-align: center;
+}
+.p2{
+    font-size:13px; 
+    text-align: center;
+}
+.p3{
+    font-size:13px; 
+    text-align: center;
+}
+a{
+    text-decoration:none;
+}
+/*contenedor de nuestro formulario y footer*/
+main{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    width: 50%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*Aqui comienza nuestro formulario*/
+.formulario{
+    background-color: rgb(249, 249, 249);
+    width: 75%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.titulo_form{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.inputs{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/*Estos son los inputs del formulario los cuales los podemos personalizar a gusto*/
+input{
+    background-color: rgba(255, 17, 0, 0.593);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.usuario{
+    background-color: rgba(255, 17, 0, 0.593);
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.contrasena{
+    background-color: rgba(255, 17, 0, 0.593);
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.rol{
+    background-color: rgba(255, 17, 0, 0.593);
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.correo{
+    background-color: rgba(255, 17, 0, 0.593);
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.registrarse{
+    background-color: rgba(255, 17, 0, 0.593);
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+/*Efecto hover*/
+h1:hover{
+    color: red;
+}
+.usuario:hover{
+    color: azure;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.448);
+}
+.contrasena:hover{
+    color: azure;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.448);
+}
+.rol:hover{
+    color: azure;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.448);
+}
+.correo:hover{
+    color: azure;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.448);
+}
+.registrarse:hover{
+    color: azure;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.448);
+}
+/*Cambiando el color de los placeholders de los inputs*/
+::placeholder{
+    color: azure;
+}
+/*Footer en el cual tendremos nuestra marca registrada y idioma ademas del boton para volver atras*/
+footer{
+    background-color: rgba(228, 216, 216, 0.548);
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.mitad_fot1{
+    width: 50%;
+    height: 125px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.idioma{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 3px;
+}
+.p4{
+    color: red;
+    margin: 5px;
+    font-size: 30px;
+}
+.Registrado{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 3px;
+}
+.p5{
+    color: blue;
+    margin: 5px;
+    font-size: 30px;
+}
+.mitad_fot2{
+    width: 50%;
+    height: 125px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+.politicas{
+    width: 25%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Poli{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration:none;
+}
+.boton{
+    width: 25%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.regresar{
+    background-color: red;
+    width: 70px;
+    height: 35px;
+}
+.regresar:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    
+}
+
