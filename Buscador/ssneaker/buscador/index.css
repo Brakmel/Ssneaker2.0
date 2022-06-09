@@ -1,0 +1,110 @@
+body{
+    background-color: azure;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+::-webkit-scrollbar {display: none;}
+/*Cambiando el color de los placeholders de los inputs*/
+::placeholder{
+    color: azure;
+}
+/*Fprmulario*/
+h1{
+    color: white;
+    font-size:100px;
+    text-align: center;
+}
+p{
+    font-size:20px; 
+    text-align: center;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.logo_ssneaker{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+}
+.img{
+    width: 27%;
+}
+/*Con esto podras manipular el buscador*/
+.form-control{
+    background-color: rgb(93, 189, 79);
+    width: 500px;
+    height: 50px;
+}
+.barra_buscador_contenedor{
+    background-color: azure;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+/*Botones*/
+button{
+    width: 70px;
+    height: 50px;
+    border: 2px solid rgb(65, 65, 65);
+    background-color: rgba(124, 124, 124, 0.117);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(216, 220, 110);
+    
+}
+.Cancelar_busqueda{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inciiar_busqueda{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancelar{
+    border: 2px solid rgb(65, 65, 65);
+    background-color: rgba(124, 124, 124, 0.117);
+    width: 575px;
+    height: 50px;
+}
+.buscar{
+    border: 2px solid rgb(65, 65, 65);
+    background-color: rgba(124, 124, 124, 0.117);
+    width: 575px;
+    height: 50px;
+}
+.buscar:hover{
+    background-color: rgb(165, 163, 42);
+    color: azure;
+}
+.cancelar:hover{
+    background-color: brown;
+    color: azure;
+}
+#probando{
+    display: none;
+}
+
